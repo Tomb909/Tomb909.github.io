@@ -59,10 +59,10 @@ function App() {
               <span className="path">
                 ~/<b>thomas-barker</b>
               </span>
-              <span className="chip">
+              {/* <span className="chip">
                 <span className="led" />
                 open to summer 2027 internships
-              </span>
+              </span> */}
             </div>
             <div>
               <div className="name">
@@ -117,10 +117,10 @@ function App() {
                 <dd>MSci CS · St Andrews · 2024-28</dd>
               </div>
               <div className="r">
-                <dt>status</dt>
+                {/* <dt>status</dt>
                 <dd>
                   <span className="ok">●</span> Internships summer '27
-                </dd>
+                </dd> */}
               </div>
             </dl>
           </aside>
@@ -171,7 +171,7 @@ function App() {
             <h3>market-data-server</h3>
             <p>
               US Treasury yields (FRED) and UK gilt data (Bank of England) into SQLite,
-              served via a Flask API and Streamlit UI — with yield-curve construction
+              served via a Flask API and Streamlit UI with yield-curve construction
               using Nelson-Siegel-Svensson interpolation.
             </p>
             <div className="tags">
@@ -196,7 +196,7 @@ function App() {
             </div>
             <h3>chip8-emulator</h3>
             <p>
-              A CHIP-8 interpreter written from scratch in modern C++20 — full instruction
+              A CHIP-8 interpreter written from scratch in modern C++20, full instruction
               set, 64x32 monochrome display, keyboard input and adjustable clock. Runs
               Tetris and the IBM-logo ROM.
             </p>
@@ -215,7 +215,7 @@ function App() {
             </div>
             <h3>digit-recognition-nn</h3>
             <p>
-              A neural network built from scratch with NumPy — backpropagation and gradient
+              A neural network built from scratch with NumPy with backpropagation and gradient
               descent by hand, to understand the calculus underneath. Visualised with
               Matplotlib and tkinter.
             </p>
@@ -234,7 +234,7 @@ function App() {
             </div>
             <h3>fog-of-war-map</h3>
             <p>
-              A Durham Hackathon project — a web app that reveals the parts of a world map
+              A Durham Hackathon project. Web app that reveals the parts of a world map
               you've travelled and fogs the rest. Designed and shipped with a team under
               time pressure.
             </p>
@@ -260,11 +260,11 @@ function App() {
             <div className="bul">
               <div>
                 Full-stack delivery in <b>C# (.NET Core)</b>, JavaScript and HTML/CSS,
-                with <b>SQL</b> tables and views — Git, Agile.
+                with <b>SQL</b> tables and views. Git, Agile.
               </div>
               <div>
                 Shipped a <b>real-time inventory dashboard</b> used daily by 40 external
-                and 20 internal users — <b>~180 hrs/yr</b> saved.
+                and 20 internal users around <b>~180 hrs/yr</b> saved.
               </div>
               <div>
                 Wrote API classes surfacing <b>trending lab data</b> to reduce deviations
@@ -282,7 +282,7 @@ function App() {
                 target="_blank"
                 rel="noopener"
               >
-                Featured in Cleanroom Technology — garment-portal improvements
+                Featured in Cleanroom Technology: garment-portal improvements
               </a>
             </div>
           </article>
